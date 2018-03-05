@@ -1,0 +1,17 @@
+target/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.settings/
+.project
+.classpath
+
+test-output/
+.DS_Store
+.checkstyle
+.pmd
+.pmdruleset.xml
+

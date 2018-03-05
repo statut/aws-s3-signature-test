@@ -1,0 +1,10 @@
+{
+  "expiration": "2099-12-30T12:00:00.000Z",
+  "conditions": [
+    {"bucket": "sample-cf"},
+    ["starts-with", "$key", ""],
+    ["starts-with", "$x-amz-date", ""],
+    ["starts-with", "$x-amz-credential", ""],
+    {"x-amz-algorithm": "AWS4-HMAC-SHA256"}
+  ]
+}
